@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>contact us </title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-image:url("home12.jpg");
+    background-repeat:no-repeat;
+    background-size: cover; background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:left;
+    align-items:left;
+    height: 100vh;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align:center;
+}
+
+h1 {
+    color:black;
+}
+
+.contact-form {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-align:center;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+iframe {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align: center;">Contact Us</h1><br><br>
+        <p>If you have any questions or need assistance, please feel free to contact us through the form below.</p>
+        <div class="contact-form">
+            <form action="thank you.html">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
